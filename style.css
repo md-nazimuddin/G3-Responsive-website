@@ -139,7 +139,7 @@ main {
 }
 .lady-pic img {
     width: 100%;
-    /* height: 100%; */
+    
 }
 .love-box {
     padding: 15px 30px;
@@ -164,24 +164,28 @@ main {
     font-weight: 600;
     padding-bottom: 5px;
 }  
-.lady-box {
+.lady-logo {
     background-color: #FF900E;
     text-align: center;
     padding: 30px;
-    
-    /* position: absolute;
-    top: 40px; */
+    position: relative;
+    border-radius: 8px;
+    bottom: 80px;
+    right: 60px;
+    width: 250px ;
 }  
-.lady-box h2 {
+.lady-logo h2 {
     
     color: #FFF;
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 700; 
+    width: 100%;
 }
-.lady-box p {
+.lady-logo p {
     color: #FFF;
     font-size: 1.15rem;
     font-weight: 500;
+    width: 100%;
 }
 
 
@@ -284,6 +288,27 @@ footer {
     .sponsor {
         width: 100%;
     }
+    .love-container {
+        flex-direction: column;
+    }
+    .love-details {
+        width: 100%;
+    }
+    .lady-pic {
+        width: 100%;
+    }
+    .lady-logo {
+        padding: none;
+        position: static;
+        
+    }
+    
+    .love-box {
+        padding: 20px 0;
+    }
+    .love-heading {
+        width: 100%;
+    }
 }
 
 
@@ -330,6 +355,27 @@ footer {
         width: 15%;
     }
     .sponsor {
+        width: 100%;
+    }
+    .love-container {
+        flex-direction: column;
+    }
+    .love-details {
+        width: 100%;
+    }
+    .lady-pic {
+        width: 100%;
+    }
+    .lady-logo {
+        padding: none;
+        
+        
+    }
+    
+    /* .love-box {
+        padding: 20px 0;
+    } */
+    .love-heading {
         width: 100%;
     }
 }
